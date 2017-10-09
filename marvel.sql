@@ -94,7 +94,7 @@ INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galaxy 2',
 -- UPDATE people
 -- SET name = 'Tony Stark'
 -- WHERE id = 11;
-
+--
 -- UPDATE people
 -- SET name = 'Bruce Banner'
 -- WHERE name = 'Diana Prince';
@@ -109,21 +109,13 @@ INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galaxy 2',
 -- UPDATE movies
 -- SET show_time = '21:30'
 -- WHERE id = 11;
-
+--
 -- INSERT INTO movies (title, year, show_time)
 -- VALUES ('Guardians of the Galaxy 2', 2017, '00:00');
 
 
+--EXTENSION
+-- DELETE FROM movies WHERE id IN (2,4,5,6,8,9,10,13,14,15,16);
 
-
-
-
-
-
-
-
-
-
-DELETE FROM movies WHERE id IN (2,4,5,6,8,9,10,13,14,15,16);
-
-SELECT * FROM movies
+-- SELECT * FROM movies
+-- SELECT * FROM people
